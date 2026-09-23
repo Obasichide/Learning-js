@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    background: #f2f4f7;
+    font-family: Arial, sans-serif;
+}
+
+.Profilecard {
+    width: 320px;
+    padding: 30px 25px;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+   
+}
+
+.Profileimage {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 40%;
+    border: 1px solid #9eb5e7;
+    margin-bottom: 15px;
+}
+
+.Profilecard h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+    color: #222;
+}
+
+.skill {
+    color: #2563eb;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.bio {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.Profilebutton {
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.Profilebutton:hover{
+    background-color: rgb(154, 154, 224);
+}
